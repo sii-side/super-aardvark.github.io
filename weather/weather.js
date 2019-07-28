@@ -90,7 +90,15 @@ weatherChances: {
 "Eureka Anemos": function(chance) { if ((chance -= 30) < 0) { return "Fair Skies"; } else if ((chance -= 30) < 0) { return "Gales"; } else if ((chance -= 30) < 0) { return "Showers"; } else { return "Snow"; } },
 "Eureka Pagos": function(chance) { if ((chance -= 10) < 0) { return "Clear Skies"; } else if ((chance -= 18) < 0) { return "Fog"; } else if ((chance -= 18) < 0) { return "Heat Waves"; } else if ((chance -= 18) < 0) { return "Snow"; } else if ((chance -= 18) < 0) { return "Thunder"; } else { return "Brizzards"; } },
 "Eureka Pyros": function(chance) { if ((chance -= 10) < 0) { return "Fair Skies"; } else if ((chance -= 18) < 0) { return "Heat Waves"; } else if ((chance -= 18) < 0) { return "Thunder"; } else if ((chance -= 18) < 0) { return "Blizzards"; } else if ((chance -= 18) < 0) { return "Umbral Wind"; } else { return "Snow"; } },
-"Eureka Hydatos": function(chance) { if ((chance -= 12) < 0) { return "Fair Skies"; } else if ((chance -= 22) < 0) { return "Showers"; } else if ((chance -= 22) < 0) { return "Gloom"; } else if ((chance -= 22) < 0) { return "Thunderstorms"; } else { return "Snow"; } }
+"Eureka Hydatos": function(chance) { if ((chance -= 12) < 0) { return "Fair Skies"; } else if ((chance -= 22) < 0) { return "Showers"; } else if ((chance -= 22) < 0) { return "Gloom"; } else if ((chance -= 22) < 0) { return "Thunderstorms"; } else { return "Snow"; } },
+"The Crystarium": function(chance) { if ((chance -= 20) < 0) { return "Clear Skies"; } else if ((chance -= 40) < 0) { return "Fair Skies"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 10) < 0) { return "Rain"; } else { return "Thunderstorms"; } },
+"Eulmore": function(chance) { if ((chance -= 10) < 0) { return "Gales"; } else if ((chance -= 10) < 0) { return "Rain"; } else if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 40) < 0) { return "Fair Skies"; } else { return "Clear Skies"; } },
+"Lakeland": function(chance) { if ((chance -= 20) < 0) { return "Clear Skies"; } else if ((chance -= 40) < 0) { return "Fair Skies"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 10) < 0) { return "Rain"; } else { return "Thunderstorms"; } },
+"Kholusia": function(chance) { if ((chance -= 10) < 0) { return "Gales"; } else if ((chance -= 10) < 0) { return "Rain"; } else if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 40) < 0) { return "Fair Skies"; } else { return "Clear Skies"; } },
+"Amh Araeng": function(chance) { if ((chance -= 45) < 0) { return "Fair Skies"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 10) < 0) { return "Dust Storms"; } else if ((chance -= 10) < 0) { return "Heat Waves"; } else { return "Clear Skies"; } },
+"Il Mheg": function(chance) { if ((chance -= 10) < 0) { return "Rain"; } else if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 15) < 0) { return "Clouds"; } else if ((chance -= 10) < 0) { return "Thunderstorms"; } else if ((chance -= 15) < 0) { return "Clear Skies"; } else { return "Fair Skies"; } },
+"The Rak'tika Greatwood": function(chance) { if ((chance -= 10) < 0) { return "Fog"; } else if ((chance -= 10) < 0) { return "Rain"; } else if ((chance -= 10) < 0) { return "Umbral Wind"; } else if ((chance -= 15) < 0) { return "Clear Skies"; } else if ((chance -= 40) < 0) { return "Fair Skies"; } else { return "Clouds"; } },
+"The Tempest": function(chance) { if ((chance -= 20) < 0) { return "Clouds"; } else if ((chance -= 60) < 0) { return "Fair Skies"; } else { return "Clear Skies"; } },
 },
 
 weatherLists: {
@@ -136,6 +144,15 @@ weatherLists: {
 "Eureka Anemos": ["Fair Skies", "Gales", "Showers", "Snow"],
 "Eureka Pagos": ["Clear Skies", "Fog", "Heat Waves", "Snow", "Thunder", "Brizzards"],
 "Eureka Pyros": ["Fair Skies", "Heat Waves", "Thunder", "Blizzards", "Umbral Wind", "Snow"],
-"Eureka Hydatos": ["Fair Skies", "Showers", "Gloom", "Thunderstorms", "Snow"]
+"Eureka Hydatos": ["Fair Skies", "Showers", "Gloom", "Thunderstorms", "Snow"],
+"The Crystarium": ["Clear Skies", "Fair Skies", "Clouds", "Fog", "Rain", "Thunderstorms"],
+"Eulmore": ["Gales", "Rain", "Fog", "Clouds", "Fair Skies", "Clear Skies"],
+"Lakeland": ["Clear Skies", "Fair Skies", "Clouds", "Fog", "Rain", "Thunderstorms"],
+"Kholusia": ["Gales", "Rain", "Fog", "Clouds", "Fair Skies", "Clear Skies"],
+"Amh Araeng": ["Fair Skies", "Clouds", "Dust Storms", "Heat Waves", "Clear Skies"],
+"Il Mheg": ["Rain", "Fog", "Clouds", "Thunderstorms", "Clear Skies", "Fair Skies"],
+"The Rak'tika Greatwood": ["Fog", "Rain", "Umbral Wind", "Clear Skies", "Fair Skies", "Clouds"],
+"The Tempest": ["Clouds", "Fair Skies", "Clear Skies"]
 }
 };
+    
